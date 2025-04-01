@@ -1,0 +1,14 @@
+.Logo-Fia {
+    width: 180px;
+    height: 140px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    border-style:outset;
+    border-radius: 20px;
+    border-width: 6px;
+}
