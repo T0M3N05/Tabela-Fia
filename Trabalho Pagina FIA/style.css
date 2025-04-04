@@ -3,17 +3,14 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border-style:outset;
     border-radius: 20px;
     border-width: 6px;
 }
 body{
-    background: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgba(0, 0, 255, 0.8));
-}
-main{
-    display: flex;
-    justify-content: space-around;
+    background: rgb(2,0,36);
+    background: linear-gradient(rgba(2,0,36,1) 50%, rgb(56, 11, 190) 100%);
 }
 main img{
     width: 25px;
@@ -23,7 +20,45 @@ th, td {
     padding: 5px 10px;
 }
 .Tabela{
+    border-collapse: collapse;
     border-color: black;
     border-radius: 5px;
     background-color: white;
+}
+.Construtores{
+    border-collapse: collapse;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    border-color: black;
+    border-radius: 5px;
+    background-color: white;
+}
+.TabelasPontos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+.TabelaConstrutores{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 60px;
+    align-items: center;
+}
+.Cab{
+    background-color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Pontuação{
+    border-collapse: collapse;
+    display: flex;
+    margin-top: 100px;
+    border-color: black;
+    border-radius: 5px;
+    background-color: white;
+}
+.Pilotos{
+    margin: 0;
+    padding: 0;
 }
