@@ -41,9 +41,9 @@ th, td {
 }
 .TabelaConstrutores{
     display: flex;
-    justify-content: center;
     margin-top: 50px;
     gap: 60px;
+    justify-content: center;
     align-items: center;
 }
 .Cab{
@@ -51,14 +51,18 @@ th, td {
     font-family: Arial, Helvetica, sans-serif;
 }
 .Pontuação{
-    border-collapse: collapse;
+    width: 200px;
+    margin:auto;
+    justify-content: center;
     display: flex;
     margin-top: 100px;
     border-color: black;
-    border-radius: 5px;
     background-color: white;
 }
 .Pilotos{
     margin: 0;
     padding: 0;
+}
+.ImagemPiloto{
+    width: 150px;
 }
