@@ -55,5 +55,8 @@ th, td {
     padding: 0;
 }
 .ImagemPiloto{
-    width: 150px;
+    width: 130px;
+}
+.LogoConstrutor{
+    width: 80px;
 }
